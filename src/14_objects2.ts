@@ -15,4 +15,17 @@
 
   console.log("User List: ", userList); // Logging the userList to the console, which will show the added users.
 
+  // const expectedSum = (arr: number[] | undefined, target: number) : number[] => {
+  //   if (!arr || arr.length == 0){
+  //     return [-1];
+  //     for(let j = i+1; j < arr.length; j++){
+  //       if(arr[i] + arr[j] == target){
+  //         return [i, j];
+  //       }
+  //     }
+  //   }
+  //   return [-1];
+  // }
+  // const sampleArray : number[] = [1,3,5,7,9,2];
+  // console.log(expectedSum(sampleArray, 9));
 })()
