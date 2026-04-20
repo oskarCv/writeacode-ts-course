@@ -4,7 +4,7 @@
     title: string,
     createdAt: Date,
     stock: number,
-    status?: status
+    status?: status // An optional parameter of type status, which can be one of the specified string literals or undefined.
   ): object => {
 
     return {
