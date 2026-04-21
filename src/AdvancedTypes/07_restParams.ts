@@ -15,5 +15,6 @@ const checkUserRole = (user: User, ...allowedRoles: Roll[]) => {
   }
 }
 
+// Checking if the current user has access based on their role. We can pass multiple allowed roles as rest parameters.
 checkUserRole(currentUser, Roll.ADMIN, Roll.SELLER); // Output: User Alice has access.
 checkUserRole(currentUser, Roll.CUSTOMER); // Output: User Alice does not have access.
